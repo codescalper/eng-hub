@@ -12,21 +12,21 @@ const Navbar: React.FC = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <img className="w-10 h-10 mr-2 rounded-full" src="/path/to/logo.png" alt="Logo" />
-              <span className="text-white md:text-5xl text-2xl font-bold">Engineering Shala</span>
+              <span className="text-white md:text-5xl text-2xl font-bold font-poppins">Engineering Shala</span>
             </div>
             <div className="flex items-center">
               <ul className="hidden md:flex space-x-10">
                 <li>
-                  <a className="text-black text-3xl hover:text-gray-200" href="/books">Books</a>
+                  <a className="text-black text-3xl hover:text-gray-700 "  href="/books">Books</a>
                 </li>
                 <li>
-                  <a className="text-black text-3xl hover:text-gray-200" href="/tips">Tips</a>
+                  <a className="text-black text-3xl hover:text-gray-700" href="/tips">Tips</a>
                 </li>
                 <li>
-                  <a className="text-black text-3xl hover:text-gray-200" href="/viva-questions">Viva Questions</a>
+                  <a className="text-black text-3xl hover:text-gray-700" href="/viva-questions">Viva Questions</a>
                 </li>
                 <li>
-                  <a className="text-black text-3xl hover:text-gray-200" href="/about">About Us</a>
+                  <a className="text-black text-3xl hover:text-gray-700" href="/imp-questions">Imp Questions</a>
                 </li>
               </ul>
               <button
