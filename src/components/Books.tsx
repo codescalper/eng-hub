@@ -1,11 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-const Books: React.FC = () => {
+function Books() {
   return (
-    <div>
-      <h1>Books Component</h1>
-    </div>
-  );
-};
+    <div>Books</div>
+  )
+}
 
-export default Books;
+export default Books
