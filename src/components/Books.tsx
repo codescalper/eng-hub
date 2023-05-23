@@ -1,6 +1,15 @@
 import React from 'react';
 import './style.css';
-  
+import Sem1 from 'src/Semesters/Sem1';
+import Sem2 from 'src/Semesters/Sem2';
+import Sem3 from 'src/Semesters/Sem3';
+import Sem4 from 'src/Semesters/Sem4';
+import Sem5 from 'src/Semesters/Sem5';
+import Sem6 from 'src/Semesters/Sem6';
+import Sem7 from 'src/Semesters/Sem7';
+import Sem8 from 'src/Semesters/Sem8';
+
+
   function Books() {
     return (
       <div className="mt-5 bg-custom-color">
