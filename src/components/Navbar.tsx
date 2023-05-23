@@ -9,14 +9,14 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-gradient-to-r from-teal-500 to-teal-200 p-8">
+    <nav className="bg-gradient-to-r from-teal-500 to-teal-200 p-5">
       <div className="flex items-center justify-between">
-        <div className="flex items-center">
+      <Link to="/" className="flex items-center">
           <img className="w-10 h-10 mr-2 rounded-full" src="/path/to/logo.png" alt="Logo" />
           <span className="text-white md:text-5xl text-2xl font-bold font-poppins">
             Engineering Shala
           </span>
-        </div>
+        </Link>
         <div className="flex items-center">
           <ul className="hidden md:flex space-x-10">
             <li>
