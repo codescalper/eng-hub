@@ -1,3 +1,4 @@
+const shadowOutlineColors = require('tailwindcss-shadow-outline-colors');
 module.exports = {
   purge: ['./src/**/*.tsx', './src/**/*.html'],
   theme: {
@@ -7,4 +8,5 @@ module.exports = {
     },
     },
     },
+    plugins: [shadowOutlineColors],
 };
