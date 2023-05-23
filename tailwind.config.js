@@ -1,4 +1,10 @@
 module.exports = {
   purge: ['./src/**/*.tsx', './src/**/*.html'],
-  // Other configuration options
+  theme: {
+    extend: {
+    backgroundColor: {
+    'custom-color': '#03314b',
+    },
+    },
+    },
 };
